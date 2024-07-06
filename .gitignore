@@ -1,0 +1,22 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Airflow logs and PIDs
+logs/
+airflow-webserver.pid
+
+# Ignore environment files
+.env
+
+# Ignore SQLite database file (if using SQLite for local development)
+airflow.db
+
+# Ignore other system files
+.DS_Store
+
+# Ignore virtual environment
+venv/
+.airflow/
+.airflowignore
+
