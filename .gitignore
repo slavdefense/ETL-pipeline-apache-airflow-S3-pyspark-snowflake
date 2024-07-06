@@ -20,3 +20,5 @@ venv/
 .airflow/
 .airflowignore
 
+# Ignore virtual environment directory
+airflow_venv/
